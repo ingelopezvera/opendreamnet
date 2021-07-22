@@ -31,7 +31,9 @@ export default setNuxtConfig({
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content'
+    '@nuxt/content',
+    // https://github.com/nuxt-community/gtm-module
+    '@nuxtjs/gtm'
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
