@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "descentralized",
+    "title": "Decentralized",
+    "description": "Applications that work without central servers in a decentralized network."
+  },
+  {
+    "slug": "adult",
+    "title": "NSFW",
+    "description": "Applications for adults.",
+    "nsfw": true
+  },
+  {
+    "slug": "development",
+    "title": "In development",
+    "description": "Projects planned and under development."
+  }
+]
