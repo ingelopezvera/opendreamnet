@@ -12,7 +12,7 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext \".js,.vue\" .",
     "prepare": "husky install",
-    "deploy": "deploy dist -p pinata -p slate -d cloudflare -n www-opendreamnet",
+    "deploy": "deploy dist -p pinata -d cloudflare -n www-opendreamnet",
     "release": "standard-version"
   },
   "lint-staged": {
