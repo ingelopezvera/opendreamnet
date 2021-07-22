@@ -40,6 +40,7 @@
 
       <!-- Links -->
       <nav class="nav">
+        <!--
         <NuxtLink to="/docs/tos" class="item">
           Terms of Service
         </NuxtLink>
@@ -47,6 +48,7 @@
         <NuxtLink to="/docs/privacy" class="item">
           Privacy Policy
         </NuxtLink>
+        -->
 
         <a href="https://status.dreamnet.tech/" target="_blank" class="item">
           Status
