@@ -73,7 +73,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
-    "@nuxtjs/gtm": "^2.4.0",
+    "@nuxtjs/gtm": "2.3.2",
     "@nuxtjs/markdownit": "^2.0.0",
     "@nuxtjs/pwa": "^3.3.5",
     "axios": "^0.21.1",

@@ -33,6 +33,7 @@ export default setNuxtConfig({
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     // https://github.com/nuxt-community/gtm-module
+    // ! Use v2.3.2: https://github.com/nuxt-community/gtm-module/issues/118
     '@nuxtjs/gtm'
   ],
 
