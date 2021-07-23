@@ -2141,13 +2141,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/gtm@npm:^2.4.0":
-  version: 2.4.0
-  resolution: "@nuxtjs/gtm@npm:2.4.0"
+"@nuxtjs/gtm@npm:2.3.2":
+  version: 2.3.2
+  resolution: "@nuxtjs/gtm@npm:2.3.2"
   dependencies:
     chalk: ^4.1.0
     semver: ^7.3.2
-  checksum: d843047f881a77371d08dad97824929bd0fec4d26853d1834e431bea89b7a7599f14d6040f4320bfcbc1dbe74635f46883ce8a20765d3f205744671fdf22e544
+  checksum: bb30f5cb3f2ca28bdf5f7cda740da1e856b8a95df064d0c72b1408da44ead24c5d7f619449e00b3e12c4b695edbadc85344d19370b4da311b28569a94e19d331
   languageName: node
   linkType: hard
 
@@ -2470,26 +2470,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opendreamnet/deploy-cli@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@opendreamnet/deploy-cli@npm:1.3.0"
+"@opendreamnet/deploy-cli@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "@opendreamnet/deploy-cli@npm:1.3.1"
   dependencies:
     "@oclif/command": ^1
     "@oclif/config": ^1
     "@oclif/plugin-help": ^3
-    "@opendreamnet/deploy": 1.3.0
+    "@opendreamnet/deploy": ^1.3.1
     lodash: ^4.17.21
     ora: ^5.4.1
     tslib: ^2
   bin:
     deploy: ./bin/run
-  checksum: 76a69f0398912c1fc103ebf8a1fc1ce1550ff444e309213c3f9d0895789631350cf389a3acb96f9f222fa6db7761fdd73867a4ec9c9af506b8a741c290eb6fb4
+  checksum: 9aa9ea16d84ea2c86173f8e0d973e4241b5d5c966600690a5262b908066f28a5038bba72dc8b835e395c05dc68a14c7d0900a795adfbf0def1b552d9fdec69c4
   languageName: node
   linkType: hard
 
-"@opendreamnet/deploy@npm:1.3.0":
-  version: 1.3.0
-  resolution: "@opendreamnet/deploy@npm:1.3.0"
+"@opendreamnet/deploy@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "@opendreamnet/deploy@npm:1.3.1"
   dependencies:
     "@octokit/rest": ^18.7.0
     "@opendreamnet/app": 1.1.3
@@ -2510,13 +2510,13 @@ __metadata:
     ora: ^5.4.1
     recursive-fs: ^2.1.0
     slash: ^3.0.0
-  checksum: 1392907fe95fdda48547d5d45483f076b22590dbd918041749021083cfeb4c184676c66fcd46a808c4faca7a9ddacba41c6387bb3893aabe4bf5d122f3931d8e
+  checksum: c261f234fda8191a00ba4ad0fec935159165a21071d4202ad0b5c7606e47cd1aeecf1a2b4e25a24237c7caf4fd062cc5e58bbd03bd19c636928bf2847cde1e44
   languageName: node
   linkType: hard
 
-"@opendreamnet/nuxtjs-base@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "@opendreamnet/nuxtjs-base@npm:1.4.0"
+"@opendreamnet/nuxtjs-base@npm:^1.4.1":
+  version: 1.4.1
+  resolution: "@opendreamnet/nuxtjs-base@npm:1.4.1"
   dependencies:
     lodash: ^4.17.21
     tinycolor2: ^1.4.2
@@ -2526,7 +2526,7 @@ __metadata:
     "@nuxtjs/tailwindcss": "*"
     lodash: "*"
     tippy.js: "*"
-  checksum: 20a998a79a26dab3890003ee651aa24697791622631053146d7ea8c9c70925e3f2a4aae087feadc516aac8bb2944c86e67164955eecb4722c799d235a6740fde
+  checksum: aeeb27506dd0bc47bbb9c58edf2dadc26c5a7d28d1f4422dc95c97c8a238ae8c6cc44d3e0295d34262ffbb1543fef78130fdae7f6756eaf774f8c1f0f44f8889
   languageName: node
   linkType: hard
 
@@ -2544,13 +2544,13 @@ __metadata:
     "@nuxt/typescript-build": ^2.1.0
     "@nuxtjs/eslint-config-typescript": ^6.0.1
     "@nuxtjs/eslint-module": ^3.0.2
-    "@nuxtjs/gtm": ^2.4.0
+    "@nuxtjs/gtm": 2.3.2
     "@nuxtjs/markdownit": ^2.0.0
     "@nuxtjs/pwa": ^3.3.5
     "@nuxtjs/style-resources": ^1.2.0
     "@nuxtjs/tailwindcss": ^4.2.1
-    "@opendreamnet/deploy-cli": ^1.3.0
-    "@opendreamnet/nuxtjs-base": ^1.4.0
+    "@opendreamnet/deploy-cli": ^1.3.1
+    "@opendreamnet/nuxtjs-base": ^1.4.1
     "@tailwindcss/typography": ^0.4.1
     axios: ^0.21.1
     babel-plugin-lodash: ^3.3.4
