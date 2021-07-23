@@ -84,7 +84,11 @@ export default Vue.extend({
 }
 
 .project__urls {
-  @apply text-xs space-x-3 font-semibold;
+  @apply space-x-3 font-semibold;
+
+  @screen lg {
+    @apply text-xs;
+  }
 
   a {
     @apply inline-block text-snow-dark;

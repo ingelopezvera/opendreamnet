@@ -1,15 +1,15 @@
 <template>
   <header class="header" :class="headerClass">
-    <nav class="container nav">
-      <!-- Logo -->
-      <div class="nav__left">
+    <div class="container nav">
+      <!-- Left (Logo) -->
+      <nav class="nav__left">
         <NuxtLink to="/" class="logo title">
           {{ $config.name || 'OpenDreamNet' }}
         </NuxtLink>
-      </div>
+      </nav>
 
       <!-- Navigation -->
-      <div class="nav__center">
+      <nav class="nav__center">
         <NuxtLink to="/" class="item">
           Projects
         </NuxtLink>
@@ -17,10 +17,10 @@
         <NuxtLink to="/contact" class="item">
           Contact
         </NuxtLink>
-      </div>
+      </nav>
 
       <!-- Social -->
-      <div class="nav__right">
+      <nav class="nav__right">
         <a v-if="$config.githubURL"
            :href="$config.githubURL"
            target="_blank"
@@ -41,8 +41,8 @@
            class="item">
           <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Patreon</title><path d="M0 .48v23.04h4.22V.48zm15.385 0c-4.764 0-8.641 3.88-8.641 8.65 0 4.755 3.877 8.623 8.641 8.623 4.75 0 8.615-3.868 8.615-8.623C24 4.36 20.136.48 15.385.48z" /></svg>
         </a>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
 </template>
 
@@ -57,7 +57,7 @@ export default Vue.extend({
   computed: {
     headerClass() {
       return {
-        'header--scroll': this.scrollTop > 80
+        'header--scrolled': this.scrollTop > 80
       }
     }
   },
@@ -73,33 +73,43 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 .header {
-  @apply py-5 px-3 sticky top-0 z-50 backdrop-blur bg-background bg-opacity-95 transition-shadow;
+  @apply py-5 px-3 sticky top-0 z-50;
+  @apply bg-background transition-shadow;
   transition-timing-function: ease-in-out;
 
-  &.header--scroll {
+  &.header--scrolled {
     @apply shadow-lg;
+  }
+
+  @supports (backdrop-filter: blur(8px)) {
+    @apply backdrop-blur bg-opacity-95;
   }
 }
 
 .nav {
-  @apply flex flex-col items-center gap-6;
+  @apply grid items-center gap-6;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:  "left right"
+                        "center center";
 
   @screen md {
-    @apply flex-row;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-areas: "left center right";
   }
 }
 
 .nav__left {
-  @apply flex-1;
+  grid-area: left;
 }
 
 .nav__center {
-  @apply flex flex-wrap justify-between items-center gap-12;
+  @apply flex flex-wrap items-center justify-center gap-9;
+  grid-area: center;
 }
 
 .nav__right {
-  @apply flex-1 w-full;
-  @apply flex justify-end items-center gap-6;
+  @apply flex items-center justify-end gap-9;
+  grid-area: right;
 }
 
 .logo {
@@ -109,11 +119,8 @@ export default Vue.extend({
 .item {
   @apply text-snow-darker text-lg transition-colors cursor-pointer;
 
-  @screen md {
-    @apply text-base;
-  }
-
-  &:hover {
+  &:hover,
+  &.nuxt-link-exact-active {
     @apply text-primary-light;
   }
 

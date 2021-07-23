@@ -39,18 +39,21 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .contact {
   @apply gap-x-9 space-y-9;
-  column-count: 3;
 
-  &::v-deep {
-    .box {
-      -webkit-column-break-inside: avoid;
-      page-break-inside: avoid;
-      break-inside: avoid;
-      overflow: hidden;
-    }
+  @screen lg {
+    column-count: 3;
 
-    .box__body ul {
-      @apply m-0;
+    &::v-deep {
+      .box {
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+        overflow: hidden;
+      }
+
+      .box__body ul {
+        @apply m-0;
+      }
     }
   }
 }
