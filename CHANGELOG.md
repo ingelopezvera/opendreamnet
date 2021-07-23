@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/opendreamnet/opendreamnet/compare/v1.0.1...v1.0.2) (2021-07-23)
+
+
+### Bug Fixes
+
+* @nuxtjs/gtm not working ([d293770](https://github.com/opendreamnet/opendreamnet/commit/d29377016a94e1fe7a3e6c11389bfee7628d40f9))
+
+
+### Others
+
+* dependencies update ([611df06](https://github.com/opendreamnet/opendreamnet/commit/611df069c8475958282f329873f5a46d557961f4))
+
+
+### Design
+
+* fixes for mobile devices ([b5714c7](https://github.com/opendreamnet/opendreamnet/commit/b5714c7accc97012a586be42eb8b2e53d5be2299))
+
 ### [1.0.1](https://github.com/opendreamnet/opendreamnet/compare/v1.0.0...v1.0.1) (2021-07-22)
 
 
