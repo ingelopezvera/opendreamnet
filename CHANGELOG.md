@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/opendreamnet/opendreamnet/compare/v1.0.2...v1.0.3) (2021-07-28)
+
+
+### Bug Fixes
+
+* status link ([ce5a757](https://github.com/opendreamnet/opendreamnet/commit/ce5a7577dc2504f95360006bd788bee9f6dd6c46))
+
+
+### Others
+
+* sukebezone - cli application ([d418d0b](https://github.com/opendreamnet/opendreamnet/commit/d418d0b6ba6ca92242de2ae15e4874421bedaf90))
+
 ### [1.0.2](https://github.com/opendreamnet/opendreamnet/compare/v1.0.1...v1.0.2) (2021-07-23)
 
 
