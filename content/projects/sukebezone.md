@@ -8,4 +8,4 @@ urls:
     url: https://github.com/opendreamnet/sukebezone/discussions
 ---
 
-Use DeepSukebe to create realistic fake nudes without losing your sanity.
+CLI application to use DeepSukebe and create realistic fake nudes without losing your sanity.
