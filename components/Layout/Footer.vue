@@ -50,7 +50,7 @@
         </NuxtLink>
         -->
 
-        <a href="https://status.dreamnet.tech/" target="_blank" class="item">
+        <a href="https://status.opendreamnet.com" target="_blank" class="item">
           Status
         </a>
       </nav>
