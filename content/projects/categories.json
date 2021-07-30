@@ -2,7 +2,7 @@
   {
     "slug": "descentralized",
     "title": "Decentralized",
-    "description": "Applications that work without central servers in a decentralized network."
+    "description": "Applications where you are the owner of your data."
   },
   {
     "slug": "adult",
@@ -13,6 +13,6 @@
   {
     "slug": "development",
     "title": "In development",
-    "description": "Projects planned and under development."
+    "description": "Projects planned and/or under development."
   }
 ]

@@ -32,10 +32,6 @@
            class="item">
           Patreon
         </a>
-
-        <a href="https://forum.opendreamnet.com" target="_blank" class="item">
-          Forum
-        </a>
       </nav>
 
       <!-- Links -->
@@ -49,6 +45,10 @@
           Privacy Policy
         </NuxtLink>
         -->
+
+        <a href="https://forum.opendreamnet.com" target="_blank" class="item">
+          Forum
+        </a>
 
         <a href="https://status.opendreamnet.com" target="_blank" class="item">
           Status
@@ -83,7 +83,7 @@
     @apply block font-semibold text-white;
 
     &:hover {
-      @apply text-primary underline;
+      @apply text-primary;
     }
   }
 }

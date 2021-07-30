@@ -1,7 +1,7 @@
-<template>
+<template functional>
   <div class="text-center">
-    <h1 class="mb-2 text-3xl leading-tight md:text-5xl title">
-      We develop <span class="text-primary">decentralized</span> applications<br>to fight <span class="text-danger">censorship</span>
+    <h1 class="mb-2 text-3xl md:leading-snug md:text-4xl title">
+      <span class="text-primary">Decentralized</span> applications<br>to fight <span class="text-danger">censorship</span>
     </h1>
 
     <h2 class="text-lg text-snow-dark">

@@ -10,4 +10,4 @@ urls:
     url: https://github.com/opendreamnet/dreamlink.cloud/discussions
 ---
 
-Share files, texts and create P2P chat rooms with complete freedom.
+Share files and create encrypted P2P chat rooms in a decentralized network.

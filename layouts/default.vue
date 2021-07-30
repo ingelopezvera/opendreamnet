@@ -4,7 +4,7 @@
     <LayoutHeader />
 
     <!-- Body -->
-    <Nuxt class="container body" />
+    <Nuxt class="container body" keep-alive />
 
     <!-- Footer -->
     <LayoutFooter />

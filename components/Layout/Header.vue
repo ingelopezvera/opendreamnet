@@ -117,7 +117,7 @@ export default Vue.extend({
 }
 
 .item {
-  @apply text-snow-darker text-lg transition-colors cursor-pointer;
+  @apply text-snow-darker transition-colors cursor-pointer;
 
   &:hover,
   &.nuxt-link-exact-active {
