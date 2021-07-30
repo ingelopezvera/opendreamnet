@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/opendreamnet/opendreamnet/compare/v1.0.3...v1.0.4) (2021-07-30)
+
+
+### Improvements
+
+* small speed improvements ([95c24e7](https://github.com/opendreamnet/opendreamnet/commit/95c24e79e034a40ee01a2bac80b09362a184b383))
+
 ### [1.0.3](https://github.com/opendreamnet/opendreamnet/compare/v1.0.2...v1.0.3) (2021-07-28)
 
 
