@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/opendreamnet/opendreamnet/compare/v1.0.4...v1.0.5) (2021-09-10)
+
+
+### Others
+
+* removed sukebezone ([6a01d2c](https://github.com/opendreamnet/opendreamnet/commit/6a01d2c1757f25dc55e0a886d6b69718a45019a6))
+
 ### [1.0.4](https://github.com/opendreamnet/opendreamnet/compare/v1.0.3...v1.0.4) (2021-07-30)
 
 
